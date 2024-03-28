@@ -1,3 +1,7 @@
+/**
+ * function to loop through each button when clicked
+ */
+
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
@@ -17,10 +21,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 
-
+/**
+ * main game loop, called when the script is first loaded 
+ * and after the user's answer has been processed
+ */
 
 function runGame() {
-
+    let num1 = math.floor(math.random() * 25) + 1;
+    let num2 = math.floor(math.random() * 25) + 1;
 }
 
 function checkAnswer() {
